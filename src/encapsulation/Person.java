@@ -9,27 +9,28 @@
 // syntax - they start with either get or set, followed by the name of the variable, with the first
 // letter in upper case
 
-package practice_1;
-public class Main {
-    public static void main(String[] args) {
-        Person student = new Person();
-        student.setName("John"); // set the value of the name variable to "John"
-        student.setAge(12);
-        System.out.println("My name is " + student.getName() + " and I am " + student.getAge() + " years old");
+package encapsulation;
+public class Person {
+    private String name; // private = restricted area
+    private int age;
 
+    // Getter
+    public String getName() {
+        return name;
+    }
+    // Setter
+    public void setName(String newName) {
+        this.name = newName;
+    }
+    // Getter
+    public int getAge() {
+        return age;
+    }
+    // Setter
+    public void setAge(int myage) {
+        this.age = myage;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
