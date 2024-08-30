@@ -1,4 +1,4 @@
-package Lmabda_c;
+package Lambda_c;
 
 // To use a lambda expression in a method, the method should have a parameter with a single-method interface
 // as its type
