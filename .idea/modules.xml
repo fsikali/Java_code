@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Enums/Enums.iml" filepath="$PROJECT_DIR$/Enums/Enums.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/encapsulation.iml" filepath="$PROJECT_DIR$/encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/inner_classes/inner_classes.iml" filepath="$PROJECT_DIR$/inner_classes/inner_classes.iml" />
