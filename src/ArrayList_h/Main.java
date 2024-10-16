@@ -7,14 +7,21 @@ import java.util.Collections;
 // method for sorting lists alphabetically or numerically
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> cars = new ArrayList<>();
-        cars.add("Volvo");
-        cars.add("BMW");
-        cars.add("Ford");
-        cars.add("Mazda");
-        Collections.sort(cars); // Sort cars
-        for (String i : cars) {
-            System.out.println(i);
+        try {
+            ArrayList<String> cars = new ArrayList<>();
+            cars.add("Volvo");
+            cars.add("BMW");
+            cars.add("Ford");
+            cars.add("Mazda");
+            Collections.sort(cars); // Sort cars
+            for (String i : cars) {
+                System.out.println(i);
+            }
+        } catch (Exception e) {
+            System.out.println("Something went wrong in this code");
         }
     }
 }
+
+
+
